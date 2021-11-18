@@ -1,5 +1,5 @@
 async function getCards() {
-  const res = await fetch("../../cards.json");
+  const res = await fetch("../cards.json");
   const resJson = await res.json();
 
   let i, rn;
