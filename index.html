@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Your Place for the Latest News of the 1800s</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css" />
+
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body onload="random3()">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- Propriety -->
+              <a
+                href="index.html"
+                class="logo"
+                style="font-family: 'Lucida Handwriting'; color: #f2aa4c"
+              >
+                Propriety
+              </a>
+
+              <!-- Menu -->
+              <ul class="nav">
+                <li class="nav-link">
+                  <a href="./index.html" class="active" style="color: #f2aa4c"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-link">
+                  <a href="./important.html" style="color: #f2aa4c"
+                    >Important</a
+                  >
+                </li>
+                <li class="nav-link">
+                  <a href="./latest.html" style="color: #f2aa4c">Latest News</a>
+                </li>
+                <li class="nav-link">
+                  <a href="./ideas.html" style="color: #f2aa4c">Big Ideas</a>
+                </li>
+                <div class="d-flex flex-row-reverse" style="height: 38px">
+                  <button
+                    class="btn btn-outline-warning"
+                    type="text"
+                    onclick="passQuery()"
+                    style="margin-left: 10px"
+                  >
+                    <i class="fa fa-search"></i>
+                  </button>
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search articles..."
+                    aria-label="Search"
+                    id="searchstuff"
+                  />
+                </div>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Slideshow -->
+    <div class="main-banner header-text" id="top">
+      <div class="Modern-Slider">
+        <!-- Introduction -->
+        <div class="item">
+          <div class="img-fill">
+            <img
+              src="https://hg-images.condecdn.net/image/9XyzDGpA2Qy/crop/1440/0.5235602094240838/f/shutterstock_editorial_2257822a_huge.jpg"
+              alt=""
+              style="filter: brightness(53%)"
+            />
+            <div class="text-content">
+              <h3
+                style="
+                  color: #f2aa4c;
+                  -webkit-text-stroke-width: 1px;
+                  -webkit-text-stroke-color: #f2aa4c;
+                "
+              >
+                The latest news from the 1800's
+              </h3>
+              <h5
+                style="
+                  font-family: 'Lucida Handwriting';
+                  color: #f2aa4c;
+                  -webkit-text-stroke-width: 1px;
+                  -webkit-text-stroke-color: #f2aa4c;
+                "
+              >
+                PROPRIETY
+              </h5>
+              <a href="./latest.html" class="main-stroked-button"
+                >See Articles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Important -->
+        <div class="item">
+          <div class="img-fill">
+            <img
+              src="https://www.historytoday.com/sites/default/files/01_Dancing.jpg"
+              alt=""
+              style="filter: brightness(53%)"
+            />
+            <div class="text-content">
+              <h3></h3>
+              <h5
+                style="
+                  font-family: 'Lucida Handwriting';
+                  color: #f2aa4c;
+                  -webkit-text-stroke-width: 1px;
+                  -webkit-text-stroke-color: #f2aa4c;
+                "
+              >
+                Most Interesting Stories
+              </h5>
+              <a href="./important.html" class="main-stroked-button"
+                >See Important</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Big Ideas -->
+        <div class="item">
+          <div class="img-fill">
+            <img
+              src="https://a.cdn-hotels.com/gdcs/production104/d14/04a914aa-fca8-4116-9775-e30bc2e70118.jpg"
+              alt=""
+              style="filter: brightness(53%)"
+            />
+            <div class="text-content">
+              <h3
+                style="
+                  color: #f2aa4c;
+                  -webkit-text-stroke-width: 1px;
+                  -webkit-text-stroke-color: #f2aa4c;
+                "
+              >
+                What are the main ideas of Pride and Prejudice?
+              </h3>
+              <h5
+                style="
+                  font-family: 'Lucida Handwriting';
+                  color: #f2aa4c;
+                  -webkit-text-stroke-width: 1px;
+                  -webkit-text-stroke-color: #f2aa4c;
+                "
+              >
+                Bird's Eye View
+              </h5>
+              <a href="ideas.html" class="main-stroked-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down scroll-to-section">
+      <a href="#about"><i class="fa fa-arrow-down"></i></a>
+    </div>
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="left-text-content">
+              <div class="section-heading">
+                <h6>Pride and Prejudice</h6>
+                <h2>Incompatible companions</h2>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <img
+                    src="https://engl23101sp2016.files.wordpress.com/2016/02/elizabeth-hah.jpg?w=400"
+                    style="
+                      margin-left: 20px;
+                      margin-top: 50px;
+                      border-radius: 1rem;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="right-text-content">
+              <b>
+                Two people with completely different personalities fall in
+                love...
+              </b>
+              <h1 style="margin-top: 50px">The Pride of Darcy</h1>
+              <h1 style="text-align: center; margin-top: 75px">VS</h1>
+              <h1 style="text-align: right; margin-top: 75px">
+                The Prejudice of Elizabeth
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected articles -->
+    <section
+      class="section"
+      id="selectedcards"
+      style="background-color: #eeeae5; padding: 50px"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="section-heading">
+              <h6 style="color: #f2aa4c">Our Articles</h6>
+              <h2>Three selected articles</h2>
+            </div>
+          </div>
+          <div class="col-lg-9" id="cardcontainer"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- character section description -->
+    <div class="section-heading">
+      <h6 style="margin-left: 325px; margin-top: 50px; color: #f2aa4c">
+        Characters
+      </h6>
+      <h2 style="margin-left: 325px; margin-bottom: 20px">
+        The life of the story
+      </h2>
+      <b style="font-family: 'Trebuchet MS'; margin-left: 325px"
+        >Tap on each picture to learn more about the character!</b
+      >
+
+      <!-- character cards -->
+    </div>
+    <div class="scene">
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMTk3NzAxODIwMV5BMl5BanBnXkFtZTcwNDg1OTk0OQ@@._V1_.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 2.75rem;
+                color: black;
+              "
+            >
+              Elizabeth <br />
+              Bennet
+            </h3>
+            <p style="margin-top: 3.25rem">
+              Elizabeth is in a battle of wits with Darcy. Her prejudices
+              against him prevent her accepting his love at first, but she puts
+              them away when she finds his real character.
+            </p>
+          </div>
+        </div>
+      </label>
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://media.glamour.com/photos/56958073085ae0a85036fc05/master/pass/entertainment-2014-10-colin-firth-darcy-pride-prejudice-main.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 2.5rem;
+                color: black;
+              "
+            >
+              Fitzwilliam <br />
+              Darcy
+            </h3>
+            <p style="margin-top: 3rem">
+              Darcy takes pride in his pride. Everyone thinks he is excessively
+              aloof and condescending; his behavior was the origin of
+              Elizabeth's prejudices. However, his real character is kind and
+              generous.
+            </p>
+          </div>
+        </div>
+      </label>
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://i.insider.com/5fac22ca7f8f4200182a648f?width=600&format=jpeg&auto=webp"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 2.5rem;
+                color: black;
+              "
+            >
+              Jane Bennet
+            </h3>
+            <p style="margin-top: 2rem">
+              Jane is the lover of Mr. Bingley. She is always kind and basically
+              never holds grudges. Although Mr. Bingley left her during winter,
+              she does not blame him; the truth is that his friends tried to
+              keep him from marrying Jane.
+            </p>
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="scene" style="width: 1000px">
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://i.pinimg.com/originals/e0/44/26/e04426cdd25a597ed7becfbb9123a14e.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 2.75rem;
+                color: black;
+              "
+            >
+              George <br />
+              Wickham
+            </h3>
+            <p style="margin-top: 3rem">
+              George Wickham, a charming young man, has fallen from the good
+              graces of Mr. Darcy. although he is very suited to conversation,
+              he cannot manage his desires for material gain.
+            </p>
+          </div>
+        </div>
+      </label>
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://i.pinimg.com/originals/4e/9e/24/4e9e2478658282e246343d5b2678ddd0.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 1.5rem;
+                color: black;
+              "
+            >
+              Charles <br />
+              Bingley
+            </h3>
+            <p style="margin-top: 2.5rem">
+              Bingley is a very agreeable person with a character not unlike
+              Jane, and who loves her. His seemingly unexplainable friendship
+              with Mr. Darcy is heard to have originated from their
+              complementary characters.
+            </p>
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="scene" style="padding: 50px">
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://img.playbuzz.com/image/upload/ar_100:53,c_crop/c_mfit,w_640/v1521781859/pa922gntkgloaeecbgjf.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 2.75rem;
+                color: black;
+              "
+            >
+              Lydia <br />
+              Bennet
+            </h3>
+            <p style="margin-top: 3.25rem">
+              Lydia is the youngest daughter of Mr. Bennet. Although her
+              liveliness makes her very conversational, she can make bad
+              decisions on impulse, such as eloping with Mr. Wickham.
+            </p>
+          </div>
+        </div>
+      </label>
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://i.pinimg.com/736x/54/a3/37/54a337d3148e4e63dec64154e77c75bf--jane-austen-movies-pride-and-prejudice.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 5rem;
+                color: black;
+              "
+            >
+              Mrs. Bennet
+            </h3>
+            <p style="margin-top: 1.5rem">
+              Mrs. Bennet is the wife of Mr. Bennet. Her determination to get
+              her daughters married characterizes her as a persevering, but
+              sometimes stubborn, person.
+            </p>
+          </div>
+        </div>
+      </label>
+      <label class="card-wrap">
+        <input type="checkbox" class="flipcard" />
+        <div class="card">
+          <div class="front card-face">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMTk5ODc2NTAzNF5BMl5BanBnXkFtZTcwNDc1OTk0OQ@@._V1_.jpg"
+              alt=""
+              class="card-photo"
+            />
+          </div>
+          <div class="back card-face">
+            <h3
+              style="
+                font-family: 'Lucida Handwriting';
+                margin-top: 5.25rem;
+                color: black;
+              "
+            >
+              Mr. Bennet
+            </h3>
+            <p style="margin-top: 0.75rem">
+              Mr. Bennet is the wise father of all five sisters. Normally, he
+              can only observe others, but can do real work when called upon or
+              agitated.
+            </p>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- submit article -->
+    <section class="section" id="contact-us" style="background-color: #eeeae5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="left-text-content">
+              <div class="section-heading">
+                <h6>Submit an Article</h6>
+                <h2>Write one yourself!</h2>
+              </div>
+              <ul class="contact-info">
+                <li>
+                  <img
+                    src="https://freeiconshop.com/wp-content/uploads/edd/checkmark-flat.png"
+                    alt=""
+                    style="width: 50px; height: 50px"
+                  />Name must be 50 chars or less
+                </li>
+                <li>
+                  <img
+                    src="https://freeiconshop.com/wp-content/uploads/edd/checkmark-flat.png"
+                    alt=""
+                    style="width: 50px; height: 50px"
+                  />Description must be 115 chars or less
+                </li>
+                <li>
+                  <img
+                    src="https://freeiconshop.com/wp-content/uploads/edd/checkmark-flat.png"
+                    alt=""
+                    style="width: 50px; height: 50px"
+                  />Card will be saved, even after reloading
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-xs-12">
+            <div class="contact-form">
+              <div id="contact" action="" method="get">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <fieldset>
+                      <input
+                        name="name"
+                        type="text"
+                        id="name"
+                        placeholder="Article Name"
+                        required=""
+                      />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <fieldset>
+                      <input
+                        name="picture"
+                        type="text"
+                        id="picture"
+                        placeholder="Picture Link"
+                        required=""
+                      />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <fieldset>
+                      <input
+                        name="description"
+                        type="text"
+                        id="description"
+                        placeholder="Brief Description"
+                        required=""
+                      />
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea
+                        name="text"
+                        rows="6"
+                        id="text"
+                        placeholder="Text in Article"
+                        required=""
+                      ></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button
+                        type="button"
+                        id="js-submit"
+                        class="main-button-icon"
+                        onclick="newArticle()"
+                      >
+                        Make article <i class="fa fa-arrow-right"></i>
+                      </button>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <div class="left-text-content">
+              <p>
+                Copyright &copy; 2021 Propriety Co., Ltd. - Design:
+                <a rel="nofollow noopener" href="https://templatemo.com"
+                  >TemplateMo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <div class="right-text-content">
+              <ul class="social-icons">
+                <li><p>Follow Us</p></li>
+                <li>
+                  <a rel="nofollow" href="https://fb.com"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a rel="nofollow" href="https://twitter.com"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a rel="nofollow" href="https://linkedin.com"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a rel="nofollow" href="https://google.com"
+                    ><i class="fa fa-dribbble"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--my scripts-->
+    <script src="./assets/js/getCards.js"></script>
+    <script src="./assets/js/passQuery.js"></script>
+    <script src="./assets/js/random3.js"></script>
+    <script src="./assets/js/makeCard.js"></script>
+    <script src="./assets/js/newArticle.js"></script>
+    <script src="./assets/js/getCookie.js"></script>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/isotope.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- <script>
+      $(function () {
+        var selectedClass = "";
+        $("p").click(function () {
+          selectedClass = $(this).attr("data-rel");
+          $("#portfolio").fadeTo(50, 0.1);
+          $("#portfolio div")
+            .not("." + selectedClass)
+            .fadeOut();
+          setTimeout(function () {
+            $("." + selectedClass).fadeIn();
+            $("#portfolio").fadeTo(50, 1);
+          }, 500);
+        });
+      });
+    </script> -->
+  </body>
+</html>

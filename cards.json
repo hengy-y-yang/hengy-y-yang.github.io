@@ -1,0 +1,93 @@
+[
+  {
+    "name": "New family in Longbourn neighborhood?",
+    "description": "A new family, the Bingleys, are moving into the neighborhood.",
+    "picture": "https://rosefairbanks.files.wordpress.com/2018/05/jane-and-mr-bingley-pride-and-prejudice-couples-6970676-600-389.jpg?w=648&h=420",
+    "link": "bingleysmove",
+    "tag": "important"
+  },
+  {
+    "name": "Luxurious Dinner at Netherfield Park!",
+    "description": "The Bennets dine with the Bingleys, and are introduced to their friends.",
+    "picture": "https://2.bp.blogspot.com/-yk0pEzU-9AE/Wg3JzDx5pBI/AAAAAAAAVVo/sw5bnat861MF_MWLmhopnin4MxP1aMIyQCLcBGAs/s1600/9d863a636b9bef29895c7ed3f8ef08b1.jpg",
+    "link": "firstdinner",
+    "tag": ""
+  },
+  {
+    "name": "How Bad is Darcy's Pride?",
+    "description": "An insider reports various people's feelings about Darcy. Do people love or hate him?",
+    "picture": "https://reginajeffers.files.wordpress.com/2016/11/mr-darcy-2005-mr-darcy-19289614-1706-960.jpg?w=640",
+    "link": "darcypride",
+    "tag": "important"
+  },
+  {
+    "name": "Visiting at Longbourn Reveals Love?",
+    "description": "While visiting Longbourn with Mr. Bingley and his relatives, Mr. Darcy reveals an attraction to someone!",
+    "picture": "https://bookshelvesandbabble.files.wordpress.com/2020/10/longbourn-1024x608-1.jpg",
+    "link": "longbournparty",
+    "tag": ""
+  },
+  {
+    "name": "Elizabeth and Jane stay at Netherfield Park.",
+    "description": "Jane gets sick at Netherfield, so Elizabeth hurries there to accompany her. What happens there?",
+    "picture": "https://i.pinimg.com/originals/e6/4b/01/e64b01fa45fc51c9e1afc255b701c81a.jpg",
+    "link": "netherfieldstay",
+    "tag": ""
+  },
+  {
+    "name": "Elizabeth and Jane Continue their Stay",
+    "description": "Elizabeth continues to accompany Jane while she is sick at Netherfield.",
+    "picture": "https://whyandwhere.com/components/com_waw/media/images/dd55ab616076ae25e5d58814e2469ab2.jpg",
+    "link": "netherfieldstay2",
+    "tag": ""
+  },
+  {
+    "name": "Jane and Elizabeth Finally Leave Netherfield",
+    "description": "After an eventful stay, the dearly missed sisters come back to Longbourn.",
+    "picture": "http://movie-locations.com/movies/p/Pride-And-Prejudice-2005-Groombridge-Place.jpg",
+    "link": "netherfieldstay3",
+	"tag": "important"
+  },
+  {
+	"name": "Mr. Collins Proposes to Elizabeth",
+    "description": "After being rejected, he marries Elizabeth's friend Charlotte.",
+    "picture": "https://newsedgepoint.net/wp-content/uploads/2020/05/Pride-Prejudice-2005-Film-Adaptation-Characters-Ranked-By-Intelligence.jpg",
+    "link": "collinsproposal",
+	"tag": ""
+  },
+  {
+	"name": "The late Mr. Darcy's will was disregarded?",
+    "description": "You won't believ how Mr. Darcy took away the advantages of the will from Wickham!",
+    "picture": "https://i.ytimg.com/vi/6eazBuz2ATA/maxresdefault.jpg",
+    "link": "darcywill",
+	"tag": "important"
+  },
+  {
+	"name": "The Bingleys leave Netherfield!",
+    "description": "Mr. Bingley goes to London, and Ms. Bingley assures everyone that he will not come back. What can this mean for Jane Bennet?",
+    "picture": "http://2.bp.blogspot.com/_0xnYTIu155Y/Sir-Qx1K8BI/AAAAAAAAAwo/KWJ3WQwSJYQ/s280/caroline2.jpg",
+    "link": "bingleysleave",
+	"tag": "important"
+  },
+  {
+	"name": "Elizabeth travels to Rosings, Gets Proposal by Mr. Darcy?",
+    "description": "How can someone as mean as Mr. Darcy have any hope of marrying a reasonable woman?",
+    "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/154FD/production/_94239278_darcymatthewmacfayden_shutterstock_editorial_.jpg",
+    "link": "darcyproposal",
+	"tag": "important"
+  },
+  {
+	"name": "The Bingleys leave Netherfield!",
+    "description": "Mr. Bingley goes to London, and Ms. Bingley assures everyone that he will not come back. What can this mean for Jane Bennet?",
+    "picture": "http://2.bp.blogspot.com/_0xnYTIu155Y/Sir-Qx1K8BI/AAAAAAAAAwo/KWJ3WQwSJYQ/s280/caroline2.jpg",
+    "link": "bingleysleave",
+	"tag": "important"
+  },
+  {
+	"name": "The Bingleys leave Netherfield!",
+    "description": "Mr. Bingley goes to London, and Ms. Bingley assures everyone that he will not come back. What can this mean for Jane Bennet?",
+    "picture": "http://2.bp.blogspot.com/_0xnYTIu155Y/Sir-Qx1K8BI/AAAAAAAAAwo/KWJ3WQwSJYQ/s280/caroline2.jpg",
+    "link": "bingleysleave",
+	"tag": "important"
+  },
+]
