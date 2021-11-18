@@ -78,7 +78,7 @@
   },
   {
 	"name": "We Would Like to Apologize for Our Prejudice",
-    "description": "Please see <a href='./ideas.html'>Main Ideas</a>",
+    "description": 'Please see <a href="./ideas.html">Main Ideas</a>',
     "picture": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/Mr-Darcy-Pride-and-Prejudice.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
     "link": "apology",
 	"tag": "important"
