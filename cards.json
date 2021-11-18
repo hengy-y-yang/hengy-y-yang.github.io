@@ -67,20 +67,20 @@
     "description": "Mr. Bingley goes to London, and Ms. Bingley assures everyone that he will not come back. What can this mean for Jane Bennet?",
     "picture": "http://2.bp.blogspot.com/_0xnYTIu155Y/Sir-Qx1K8BI/AAAAAAAAAwo/KWJ3WQwSJYQ/s280/caroline2.jpg",
     "link": "bingleysleave",
-	"tag": "important"
+	"tag": ""
   },
   {
-	"name": "Elizabeth travels to Rosings, Gets Proposal by Mr. Darcy?",
+	"name": "Elizabeth travels to Rosings, Gets Proposal from Mr. Darcy?!?",
     "description": "How can someone as mean as Mr. Darcy have any hope of marrying a reasonable woman?",
     "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/154FD/production/_94239278_darcymatthewmacfayden_shutterstock_editorial_.jpg",
     "link": "darcyproposal",
 	"tag": "important"
   },
   {
-	"name": "The Bingleys leave Netherfield!",
-    "description": "Mr. Bingley goes to London, and Ms. Bingley assures everyone that he will not come back. What can this mean for Jane Bennet?",
-    "picture": "http://2.bp.blogspot.com/_0xnYTIu155Y/Sir-Qx1K8BI/AAAAAAAAAwo/KWJ3WQwSJYQ/s280/caroline2.jpg",
-    "link": "bingleysleave",
+	"name": "We Would Like to Apologize for Our Prejudice",
+    "description": "Please see <a href="./ideas.html">Main Ideas</a>",
+    "picture": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/Mr-Darcy-Pride-and-Prejudice.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+    "link": "apology",
 	"tag": "important"
   }
 ]
