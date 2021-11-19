@@ -1,31 +1,11 @@
-function randomImportant() {
+function important() {
   getCards().then((cards) => {
-    let cardsleft = cards.length,
-      n,
-      i,
-      ii,
-      done = new Array(cardsleft);
+    let i, unimportant;
 
-    for (i = 0; i < cardsleft; i++) {
-      done[i] = 0;
-    }
-
-    while (cardsleft > 0) {
-      n = Math.floor(Math.random() * cardsleft);
-      i = 0;
-      ii = 0;
-
-      while (i <= n) {
-        if (done[ii] == 0 && cards[ii].tag == "important") i++;
-        if (i <= n) ii++;
-      }
-
-      // console.log(done);
-      // console.log(n);
-      // console.log(cards[ii]);
-      makeCard(cards[ii], cards.length - cardsleft);
-      done[ii] = 1;
-      cardsleft--;
+    for (i = 0, unimportant = 0; i < cards.length; i++) {
+      if (cards[i].tag == "important") {
+        makeCard(cards[i], i - unimportant);
+      } else unimportant++;
     }
   });
 }

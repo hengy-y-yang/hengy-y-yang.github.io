@@ -2,7 +2,7 @@ async function getCards() {
   const res = await fetch("../../cards.json");
   const resJson = await res.json();
 
-  let i, rn;
+  let i, ii, rn;
 
   for (i = 0; i <= getCookie("order"); i++) {
     rn = {
@@ -12,6 +12,12 @@ async function getCards() {
       link: `${i}a`,
       tag: getCookie(`text${i}`),
     };
+
+    for (ii = 0; ii < rn.tag.length; ii++) {
+      if (rn.tag[ii] == "'")
+        rn.tag = rn.tag.substring(0, ii) + "*" + rn.tag.substring(ii + 1);
+    }
+
     console.log(rn);
     resJson.push(rn);
   }

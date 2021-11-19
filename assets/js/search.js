@@ -14,6 +14,7 @@ function getQuery() {
     }
     if (url[i] == "=") pastQuestion = true;
   }
+  result = decodeURI(result);
 
   console.log(result);
   return result;

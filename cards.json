@@ -46,41 +46,55 @@
     "description": "After an eventful stay, the dearly missed sisters come back to Longbourn.",
     "picture": "http://movie-locations.com/movies/p/Pride-And-Prejudice-2005-Groombridge-Place.jpg",
     "link": "netherfieldstay3",
-	"tag": "important"
+    "tag": "important"
   },
   {
-	"name": "Mr. Collins Proposes to Elizabeth",
+    "name": "Mr. Collins Proposes to Elizabeth",
     "description": "After being rejected, he marries Elizabeth's friend Charlotte.",
     "picture": "https://newsedgepoint.net/wp-content/uploads/2020/05/Pride-Prejudice-2005-Film-Adaptation-Characters-Ranked-By-Intelligence.jpg",
     "link": "collinsproposal",
-	"tag": ""
+    "tag": ""
   },
   {
-	"name": "The late Mr. Darcy's will was disregarded?",
-    "description": "You won't believ how Mr. Darcy took away the advantages of the will from Wickham!",
+    "name": "The late Mr. Darcy's will was disregarded?",
+    "description": "You won't believe how Mr. Darcy took away the advantages of the will from Wickham!",
     "picture": "https://i.ytimg.com/vi/6eazBuz2ATA/maxresdefault.jpg",
     "link": "darcywill",
-	"tag": "important"
+    "tag": "important"
   },
   {
-	"name": "The Bingleys leave Netherfield!",
+    "name": "The Bingleys leave Netherfield!",
     "description": "Mr. Bingley goes to London, and Ms. Bingley assures everyone that he will not come back. What can this mean for Jane Bennet?",
     "picture": "http://2.bp.blogspot.com/_0xnYTIu155Y/Sir-Qx1K8BI/AAAAAAAAAwo/KWJ3WQwSJYQ/s280/caroline2.jpg",
     "link": "bingleysleave",
-	"tag": ""
+    "tag": ""
   },
   {
-	"name": "Elizabeth travels to Rosings, Gets Proposal from Mr. Darcy?!?",
+    "name": "Elizabeth travels to Rosings, Gets Proposal from Mr. Darcy?!?",
     "description": "How can someone as mean as Mr. Darcy have any hope of marrying a reasonable woman?",
     "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/154FD/production/_94239278_darcymatthewmacfayden_shutterstock_editorial_.jpg",
     "link": "darcyproposal",
-	"tag": "important"
+    "tag": "important"
   },
   {
-	"name": "We Would Like to Apologize for Our Prejudice",
-    "description": 'Please see <a href="./ideas.html">Main Ideas</a>',
+    "name": "We Would Like to Apologize for Our Prejudice",
+    "description": "Please see <a href='./ideas.html'>Main Ideas</a>",
     "picture": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/Mr-Darcy-Pride-and-Prejudice.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
     "link": "apology",
-	"tag": "important"
+    "tag": "important"
+  },
+  {
+    "name": "Lydia Will Go to Brighton to Accompany the Regiment",
+    "description": "Mr. Bennet has agreed to let Lydia go with Mrs. and Mr. Forester to Brighton.",
+    "picture": "https://www.bbc.co.uk/staticarchive/37821400e070b985f1cbf8386d114efb6ec78adc.jpg",
+    "link": "lydiabrighton",
+    "tag": ""
+  },
+  {
+    "name": "Elizabeth Almost Falls in Love with Darcy at Pemberley Estate?",
+    "description": "While visiting Pemberley Estate during her stay in Meryton, she bumps into Mr. Darcy.",
+    "picture": "https://allthingsja.files.wordpress.com/2016/09/14195415_10207387248107137_8074848624990752971_o.jpg?w=1400",
+    "link": "pemberleymeet",
+    "tag": "important"
   }
 ]
