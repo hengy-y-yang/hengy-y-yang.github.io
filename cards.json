@@ -96,5 +96,33 @@
     "picture": "https://allthingsja.files.wordpress.com/2016/09/14195415_10207387248107137_8074848624990752971_o.jpg?w=1400",
     "link": "pemberleymeet",
     "tag": "important"
+  },
+  {
+    "name": "Lydia Eloped with Wickham?!?",
+    "description": "Without any prior notice, Lydia suddenly disappears with Wickham. The story is of great importance!",
+    "picture": "https://i.redd.it/6ccb0h51ado51.jpg",
+    "link": "lydialeft",
+    "tag": "important"
+  },
+  {
+    "name": "Darcy's Involvement in Finding Lydia",
+    "description": "How did Darcy help locate and resolve the situation with Lydia?",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QAvJiytlygaUtVZCW3lcBkfwI4T8uQ2fGw&usqp=CAU",
+    "link": "darcyhelp",
+    "tag": "important"
+  },
+  {
+    "name": "Jane Engaged to Bingley? Impossible!",
+    "description": "Jane is now engaged with Bingley, and they love each other greatly!",
+    "picture": "https://i.pinimg.com/originals/b4/cb/6b/b4cb6b043da342452b23a4cae1a8d897.jpg",
+    "link": "engagement1",
+    "tag": "important"
+  },
+  {
+    "name": "Elizabeth's regard for Mr. Darcy",
+    "description": "Darcy and Elizabeth sort out their pride and prejudice, confessing their intense love for each other",
+    "picture": "https://m.media-amazon.com/images/M/MV5BMTQzMTI5NzI3Nl5BMl5BanBnXkFtZTcwMDE1OTk0OQ@@._V1_.jpg",
+    "link": "engagement2",
+    "tag": "important"
   }
 ]
